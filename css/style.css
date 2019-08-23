@@ -5,11 +5,23 @@ footer{
     bottom:0;
     width: 100%;
 }
+.rodape{
+  position: absolute;
+  bottom: -200px;
+}
 
 
-
-
-
+//botão que vai ao topo
+.btnTopo{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.voltaTopo{
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
 
 
 //Barra de load
