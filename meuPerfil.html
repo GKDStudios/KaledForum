@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <link rel="icon" href="img/foxIcon.png">
         <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/perfil.css">
         <title>| KaledFórum |</title>
     <head>
     <body>
-        <nav class="flex items-center justify-between flex-wrap bg-gray-900 p-6" >
+        <nav id="topo" class="flex items-center justify-between flex-wrap bg-gray-900 p-6" >
             <div class="flex items-center flex-shrink-0 text-white mr-6">
                 <img src="img/favIcon.png" alt="Imagem fox" width="70" height="70">
                 <span class="font-semibold text-xl tracking-tight">KaledFórum</span>
@@ -20,7 +20,7 @@
             </div>
             <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div class="text-sm lg:flex-grow">
-                <a href="index.html" class="mr-4 block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-600 mr-4" id="topo">
+                <a href="index.html" class="mr-4 block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-600 mr-4">
                     <strong>Inicial</strong>
                 </a>
                 <a href="" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-600 mr-4">
@@ -38,13 +38,65 @@
                 </div>
             </div>
         </nav>
-        <main>
-            <div class="perfil">
-                <img class="imgPerfil border-4 rounded border-orange-500" src="img/minhaFoto.jpg" width="150" height="150">
+         <div class="perfil p-6 bg-gray-900 border-2 border-orange-600 w-56 h-auto mt-1" >
+                <img class="imgPerfil border-4 border-orange-600 " src="img/minhaFoto.jpg" width="160" height="160">
+                <aside class="text-center md:text-left">
+                    <h2 class=" text-white text-lg"><strong>Markinho</strong></h2>
+                    <ul>
+                        <li class="text-orange-600"><strong>Desenvolvedor</strong></li>
+                        <li class="text-white">markinhoevil@gmail.com</li>
+                        <li class="text-white">(16) 3342-6534</li>
+                    </ul>
+                </aside>
             </div>
-            </main>
-        <a class="voltaTopo bg-orange-500 hover:bg-orange-700 border-orange-500 hover:border-orange-700 text-sm border-4 text-white py-1 px-2 rounded" href="#topo"> ↑ </a>
-        <div class="rodape"><span>.</span></div>
+        <main>
+            <h1 class="mb-4"> <strong>Minhas Postagens</strong> </h1><hr>
+            <div class="md:flex bg-white rounded-lg p-6">
+                <img class="h-16 w-10 md:h-10 md:w-10 rounded-full mx-auto md:mx-0 md:mr-4" src="img/minhaFoto.jpg">
+                <div class="text-center md:text-left">
+                    <h2 class="text-l"><strong>Markinho</strong></h2>
+                    <div class="text-l text-orange-600"><strong>Titulo</strong></div>
+                    <div class="text-l text-gray-700">corpo</div>
+                </div>
+            </div><hr>
+           
+            <div class="md:flex bg-white rounded-lg p-6">
+                <img class="h-16 w-10 md:h-10 md:w-10 rounded-full mx-auto md:mx-0 md:mr-4" src="img/minhaFoto.jpg">
+                <div class="text-center md:text-left">
+                    <h2 class="text-l"><strong>Markinho</strong></h2>
+                    <div class="text-l text-orange-600"><strong>Titulo</strong></div>
+                    <div class="text-l text-gray-700">corpo</div>
+                </div>
+            </div><hr>
+                    
+            <div class="md:flex bg-white rounded-lg p-6">
+                <img class="h-16 w-10 md:h-10 md:w-10 rounded-full mx-auto md:mx-0 md:mr-4" src="img/minhaFoto.jpg">
+                <div class="text-center md:text-left">
+                    <h2 class="text-l"><strong>Markinho</strong></h2>
+                    <div class="text-l text-orange-600"><strong>Titulo</strong></div>
+                    <div class="text-l text-gray-700">corpo</div>
+                </div>
+            </div><hr>
+
+                <div class="md:flex bg-white rounded-lg p-6">
+                <img class="h-16 w-10 md:h-10 md:w-10 rounded-full mx-auto md:mx-0 md:mr-4" src="img/minhaFoto.jpg">
+                <div class="text-center md:text-left">
+                    <h2 class="text-l"><strong>Markinho</strong></h2>
+                    <div class="text-l text-orange-600"><strong>Titulo</strong></div>
+                    <div class="text-l text-gray-700">corpo</div>
+                </div>
+            </div><hr>
+            
+            <div class="md:flex bg-white rounded-lg p-6">
+                <img class="h-16 w-10 md:h-10 md:w-10 rounded-full mx-auto md:mx-0 md:mr-4" src="img/minhaFoto.jpg">
+                <div class="text-center md:text-left">
+                    <h2 class="text-l"><strong>Markinho</strong></h2>
+                    <div class="text-l text-orange-600"><strong>Titulo</strong></div>
+                    <div class="text-l text-gray-700">corpo</div>
+                </div>
+            </div><hr>
+        </main>
+        <a class="voltaTopo bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-sm border-4 text-white py-1 px-2 rounded" href="#topo"> ↑ </a>
         <footer>
            <p align="center"> &copy;2019 GKDStudios. All rights reserved. </p>
         </footer>

@@ -1,0 +1,58 @@
+h1{
+	text-align: left;
+	font-size: 40px;
+	font-family: arial;
+	color: #dd6b20;
+}
+main{
+	margin-top: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+footer{
+    color:#ffffff;
+    background-color:#1A202C;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    clear: both;
+}
+.perfil{
+	float: left;
+}
+//botão que vai ao topo
+.btnTopo{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.voltaTopo{
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+
+
+//Barra de load
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #eb7a55;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 3px;
+}
