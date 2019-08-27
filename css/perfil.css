@@ -20,11 +20,16 @@ footer{
 .perfil{
 	float: left;
 }
-//botão que vai ao topo
-.btnTopo{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+//botões
+.btnEditar{
+  position: absolute;
+  left: 20px;
+  top: 350px;
+}
+#btnEditar{
+  position: absolute;
+  left: 80px;
+  top: 435px;
 }
 .voltaTopo{
   position: fixed;
