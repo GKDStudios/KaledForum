@@ -1,0 +1,51 @@
+main {
+  margin-right: 350px;
+  margin-left: 350px; }
+
+footer {
+  color: #fff;
+  background-color: #1A202C;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+.voltaTopo {
+  position: absolute;
+  bottom: 40px;
+  right: 20px; }
+
+#carousel {
+  width: 255px;
+  height: 290px;
+  margin: 0; }
+
+#slides {
+  overflow: hidden;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border: 3px solid #DD6B20; }
+  #slides #slides ul {
+    position: relative;
+    left: 0;
+    top: 0;
+    List-style: none;
+    margin: 0;
+    padding: 0;
+    width: 750px; }
+  #slides #slides li {
+    width: 250px;
+    height: 250px;
+    float: left; }
+  #slides #slides li img {
+    padding: 5px;
+    width: 240px;
+    height: 240px;
+    opacity: 0.8; }
+  #slides #slide li img:hover {
+    padding: 5px;
+    width: 240px;
+    height: 240px;
+    opacity: 1; }
+
+/*# sourceMappingURL=denuncia.css.map */
