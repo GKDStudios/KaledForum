@@ -26,7 +26,10 @@ footer{
   right: 20px;
   bottom: 30px;
 }
-.botaoPublicar{
+.botaoPublica{
+  position: absolute;
+}
+.botaoAdcFoto{
   float:right;
 }
 
