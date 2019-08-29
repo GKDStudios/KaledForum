@@ -26,7 +26,9 @@ footer{
   right: 20px;
   bottom: 30px;
 }
-
+.botaoPublicar{
+  float:right;
+}
 
 //Barra de load
 .pace {
