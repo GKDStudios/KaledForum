@@ -9,3 +9,21 @@ BlockChain(Informações 100% seguras), e vende-las.
   Esse projeto visa ganhar lucros apartir de BlockChain.
 
   Venda de informações para empresas privadas ou publicas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALL RIGHTS RESERVED. GKDStudios
