@@ -1,4 +1,4 @@
-          KALEDFORUM                    Empreendedorismo Social / Empreendedorismo comercial
+          KALEDFORUM                    Empreendedorismo Social / Empreendedorismo economico
   
   
   Forúm/Rede social que visa diversão, e uma aba somente para reclamações aonde essas informações são coletadas e
